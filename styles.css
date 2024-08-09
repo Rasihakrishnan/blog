@@ -1,0 +1,86 @@
+/* General Styles */
+body {
+    font-family: 'Lucida Handwriting', cursive; /* Black cursive font */
+    color: #fff;
+    background-color: navy;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid red; /* Red carpet effect */
+}
+
+header h1 {
+    margin: 0;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: red; /* Highlight links on hover */
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+section {
+    background: #222;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.5s ease-in-out; /* Red carpet transition effect */
+}
+
+section:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+}
+
+section h2 {
+    font-weight: bold;
+    border-bottom: 2px solid red;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+.web-img, .hobby-img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+}
+
+footer {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 5px solid red; /* Red carpet effect */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
